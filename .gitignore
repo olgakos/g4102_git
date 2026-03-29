@@ -11,6 +11,7 @@ build/
 
 ### Gradle ###
 .gradle
+.gradle/
 
 ### Logs ###
 *.log
@@ -19,11 +20,8 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 
 # Project gen files
-.idea
 .allure/
-.gradle/
 allure-results/
-gradle/
 build/
 bin/
 out/
