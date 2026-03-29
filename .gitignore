@@ -1,27 +1,34 @@
-HELP.md
-build/
-!**/src/main/**
-!**/src/test/**
+# Compiled class file
+*.class
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### Gradle ###
-.gradle
-
-### Logs ###
+# Log file
 *.log
 
+# BlueJ files
+*.ctxt
 
-!gradle/wrapper/gradle-wrapper.jar
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Properties files
+*.properties
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.iml
 
 # Project gen files
 .idea
-.allure/
-.gradle/
+/.idea
+/.allure
+.gradle
+/.gradle
 allure-results/
 gradle/
 build/
@@ -35,30 +42,3 @@ target/
 .vscode
 /gradlew
 /gradlew.bat
-/.DS_Store
-
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
